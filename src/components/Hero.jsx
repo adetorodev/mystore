@@ -2,7 +2,21 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+      <div></div>
+      <div>
+        <div>
+          <h1></h1>
+          <h1></h1>
+          <button></button>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <img src='' alt='hero-img' className='' />
+        </div>
+      </div>
+    </div>
   )
 }
 

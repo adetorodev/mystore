@@ -1,11 +1,15 @@
 import React from 'react'
+import { Hero } from './components'
+import Topbar from './components/headers/Topbar'
+import TopMenu from './components/headers/TopMenu'
 
 const App = () =>{
   return (
     <>
-      <h1 className="text-red-600 mt-4 ml-4 py-4 pl-4 font-bold">
-      Welcome to MyStore
-    </h1>
+      <main>
+        <Topbar />
+        <TopMenu />
+      </main>
     </>
   )
 }
